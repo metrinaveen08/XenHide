@@ -47,8 +47,6 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install stegano PyQt5
 ```
-### Android
-No build required — download `xh_mobile.apk` from [Releases](https://github.com/metrinaveen08/XenHide/releases) and install directly on your device. (Enable "Install from unknown sources" if prompted.)
 ## Usage
 ### Command Line
 Embed data into an image:
@@ -71,7 +69,6 @@ XenHide/
 ├── xendcrypt.py           — CLI tool for extracting hidden data from an image
 ├── Application/
 │   └── XenHideGUI.py      — Experimental PyQt5 graphical frontend
-├── XHMobile/              — Flutter-based mobile app source (Android/Windows)
 └── LICENSE
 ```
 ## Contributing
